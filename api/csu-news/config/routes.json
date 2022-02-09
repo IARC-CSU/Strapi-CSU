@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/csu-news",
+      "handler": "csu-news.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/csu-news/count",
+      "handler": "csu-news.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/csu-news/:id",
+      "handler": "csu-news.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/csu-news",
+      "handler": "csu-news.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/csu-news/:id",
+      "handler": "csu-news.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/csu-news/:id",
+      "handler": "csu-news.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

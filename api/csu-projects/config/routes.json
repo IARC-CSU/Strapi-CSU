@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/csu-projects",
+      "handler": "csu-projects.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/csu-projects/count",
+      "handler": "csu-projects.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/csu-projects/:id",
+      "handler": "csu-projects.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/csu-projects",
+      "handler": "csu-projects.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/csu-projects/:id",
+      "handler": "csu-projects.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/csu-projects/:id",
+      "handler": "csu-projects.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

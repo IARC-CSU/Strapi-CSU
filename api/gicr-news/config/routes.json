@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gicr-news",
+      "handler": "gicr-news.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gicr-news/count",
+      "handler": "gicr-news.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gicr-news/:id",
+      "handler": "gicr-news.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gicr-news",
+      "handler": "gicr-news.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gicr-news/:id",
+      "handler": "gicr-news.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gicr-news/:id",
+      "handler": "gicr-news.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

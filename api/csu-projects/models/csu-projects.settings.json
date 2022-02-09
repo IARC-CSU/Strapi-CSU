@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "csu_projects",
+  "info": {
+    "name": "CSU_PROJECTS"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}
