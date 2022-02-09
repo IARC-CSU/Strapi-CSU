@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "csu_news",
   "info": {
-    "name": "CSU_NEWS"
+    "name": "CSU_NEWS",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,27 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Project": {
+      "model": "csu-projects"
+    },
+    "Picture": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Link": {
       "type": "string"
     }
   }
