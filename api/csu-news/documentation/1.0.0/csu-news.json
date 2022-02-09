@@ -636,6 +636,10 @@
           "Link": {
             "type": "string"
           },
+          "News_date": {
+            "type": "string",
+            "format": "date"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -655,6 +659,10 @@
           },
           "Link": {
             "type": "string"
+          },
+          "News_date": {
+            "type": "string",
+            "format": "date"
           },
           "published_at": {
             "type": "string",
