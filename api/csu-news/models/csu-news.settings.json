@@ -35,6 +35,9 @@
     },
     "Link": {
       "type": "string"
+    },
+    "News_date": {
+      "type": "date"
     }
   }
 }
