@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gco-covids",
+      "handler": "gco-covid.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gco-covids/count",
+      "handler": "gco-covid.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gco-covids/:id",
+      "handler": "gco-covid.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gco-covids",
+      "handler": "gco-covid.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gco-covids/:id",
+      "handler": "gco-covid.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gco-covids/:id",
+      "handler": "gco-covid.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
